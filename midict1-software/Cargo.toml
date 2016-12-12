@@ -1,0 +1,14 @@
+[package]
+name = "midict1"
+version = "0.1.0"
+authors = ["Christian Perez-Llamas <chrispz@gmail.com>"]
+
+[dependencies]
+core-foundation = "0.2.2"
+coremidi-sys = { git = "https://github.com/jonas-k/coremidi-sys" }
+# core-midi = "0.1.0"
+# core-midi = { git = "https://github.com/dtwood/core-midi-rs.git" }
+serial = "0.3.4"
+time = "0.1.35"
+mach = "0.0.6"
+libc = "0.2"
