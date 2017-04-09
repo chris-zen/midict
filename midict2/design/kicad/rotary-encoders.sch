@@ -1,0 +1,1823 @@
+EESchema Schematic File Version 2
+LIBS:rotary-encoders
+LIBS:rotary-encoders-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "rotary-encoders.sch"
+Date "19 MAR 2017"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C-EUC0805 C1
+U 1 1 58CDD2C8
+P 1450 7000
+F 0 "C1" H 1510 7014 70  0000 L BNN
+F 1 "100nF" H 1509 6815 70  0000 L BNN
+F 2 "rotary-encoders:C0805" H 1440 6790 65  0001 L TNN
+F 3 "" H 1450 7000 60  0001 C CNN
+	1    1450 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-EUC0805 C2
+U 1 1 58CDD390
+P 2050 7000
+F 0 "C2" H 2110 7014 70  0000 L BNN
+F 1 "100nF" H 2109 6815 70  0000 L BNN
+F 2 "rotary-encoders:C0805" H 2040 6790 65  0001 L TNN
+F 3 "" H 2050 7000 60  0001 C CNN
+	1    2050 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-EUC0805 C3
+U 1 1 58CDD458
+P 2650 7000
+F 0 "C3" H 2710 7014 70  0000 L BNN
+F 1 "100nF" H 2709 6815 70  0000 L BNN
+F 2 "rotary-encoders:C0805" H 2640 6790 65  0001 L TNN
+F 3 "" H 2650 7000 60  0001 C CNN
+	1    2650 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 CLK28
+U 1 1 58CDD520
+P 5150 1500
+F 0 "CLK28" H 5106 1573 70  0000 L BNN
+F 1 "~" H 5140 1390 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 5140 1290 65  0001 L TNN
+F 3 "" H 5150 1500 60  0001 C CNN
+	1    5150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L DINA4_L #FRAME1
+U 1 1 58CDD584
+P 950 7600
+F 0 "#FRAME1" H 1000 7650 60  0001 C CNN
+F 1 "~" H 950 7600 60  0001 C CNN
+F 2 "" H 950 7600 60  0001 C CNN
+F 3 "" H 950 7600 60  0001 C CNN
+	1    950  7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 GN1
+U 1 1 58CDD6B0
+P 2150 2200
+F 0 "GN1" H 2106 2273 70  0000 L BNN
+F 1 "~" H 2140 2090 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2140 1990 65  0001 L TNN
+F 3 "" H 2150 2200 60  0001 C CNN
+	1    2150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 GN2
+U 1 1 58CDD778
+P 2150 3800
+F 0 "GN2" H 2106 3873 70  0000 L BNN
+F 1 "~" H 2140 3690 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2140 3590 65  0001 L TNN
+F 3 "" H 2150 3800 60  0001 C CNN
+	1    2150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 GN3
+U 1 1 58CDD840
+P 2250 5400
+F 0 "GN3" H 2206 5473 70  0000 L BNN
+F 1 "~" H 2240 5290 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2240 5190 65  0001 L TNN
+F 3 "" H 2250 5400 60  0001 C CNN
+	1    2250 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 GNC28
+U 1 1 58CDD908
+P 5150 1700
+F 0 "GNC28" H 5106 1773 70  0000 L BNN
+F 1 "~" H 5140 1590 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 5140 1490 65  0001 L TNN
+F 3 "" H 5150 1700 60  0001 C CNN
+	1    5150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND01
+U 1 1 58CDD96C
+P 2650 3900
+F 0 "#GND01" H 2550 3800 70  0001 L BNN
+F 1 "GND" H 2550 3800 70  0000 L BNN
+F 2 "" H 2650 3900 60  0001 C CNN
+F 3 "" H 2650 3900 60  0001 C CNN
+	1    2650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND02
+U 1 1 58CDD9D0
+P 2650 2300
+F 0 "#GND02" H 2550 2200 70  0001 L BNN
+F 1 "GND" H 2550 2200 70  0000 L BNN
+F 2 "" H 2650 2300 60  0001 C CNN
+F 3 "" H 2650 2300 60  0001 C CNN
+	1    2650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND03
+U 1 1 58CDDA34
+P 2650 7300
+F 0 "#GND03" H 2550 7200 70  0001 L BNN
+F 1 "GND" H 2550 7200 70  0000 L BNN
+F 2 "" H 2650 7300 60  0001 C CNN
+F 3 "" H 2650 7300 60  0001 C CNN
+	1    2650 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND04
+U 1 1 58CDDA98
+P 2050 7300
+F 0 "#GND04" H 1950 7200 70  0001 L BNN
+F 1 "GND" H 1950 7200 70  0000 L BNN
+F 2 "" H 2050 7300 60  0001 C CNN
+F 3 "" H 2050 7300 60  0001 C CNN
+	1    2050 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND05
+U 1 1 58CDDAFC
+P 1450 7300
+F 0 "#GND05" H 1350 7200 70  0001 L BNN
+F 1 "GND" H 1350 7200 70  0000 L BNN
+F 2 "" H 1450 7300 60  0001 C CNN
+F 3 "" H 1450 7300 60  0001 C CNN
+	1    1450 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #GND06
+U 1 1 58CDDB60
+P 2650 5950
+F 0 "#GND06" H 2550 5850 70  0001 L BNN
+F 1 "GND" H 2550 5850 70  0000 L BNN
+F 2 "" H 2650 5950 60  0001 C CNN
+F 3 "" H 2650 5950 60  0001 C CNN
+	1    2650 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 GND1
+U 1 1 58CDDC28
+P 2250 5600
+F 0 "GND1" H 2206 5673 70  0000 L BNN
+F 1 "~" H 2240 5490 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2240 5390 65  0001 L TNN
+F 3 "" H 2250 5600 60  0001 C CNN
+	1    2250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 IN1
+U 1 1 58CDDCF0
+P 2150 1600
+F 0 "IN1" H 2106 1673 70  0000 L BNN
+F 1 "~" H 2140 1490 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2140 1390 65  0001 L TNN
+F 3 "" H 2150 1600 60  0001 C CNN
+	1    2150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 IN2
+U 1 1 58CDDDB8
+P 2150 3200
+F 0 "IN2" H 2106 3273 70  0000 L BNN
+F 1 "~" H 2140 3090 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2140 2990 65  0001 L TNN
+F 3 "" H 2150 3200 60  0001 C CNN
+	1    2150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 IN3
+U 1 1 58CDDE80
+P 2250 4800
+F 0 "IN3" H 2206 4873 70  0000 L BNN
+F 1 "~" H 2240 4690 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2240 4590 65  0001 L TNN
+F 3 "" H 2250 4800 60  0001 C CNN
+	1    2250 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 LD28
+U 1 1 58CDDF48
+P 5150 1300
+F 0 "LD28" H 5106 1373 70  0000 L BNN
+F 1 "~" H 5140 1190 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 5140 1090 65  0001 L TNN
+F 3 "" H 5150 1300 60  0001 C CNN
+	1    5150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 OUT1
+U 1 1 58CDE010
+P 2150 1900
+F 0 "OUT1" H 2106 1973 70  0000 L BNN
+F 1 "~" H 2140 1790 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2140 1690 65  0001 L TNN
+F 3 "" H 2150 1900 60  0001 C CNN
+	1    2150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 OUT2
+U 1 1 58CDE0D8
+P 2150 3500
+F 0 "OUT2" H 2106 3573 70  0000 L BNN
+F 1 "~" H 2140 3390 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2140 3290 65  0001 L TNN
+F 3 "" H 2150 3500 60  0001 C CNN
+	1    2150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 OUT3
+U 1 1 58CDE1A0
+P 2250 5100
+F 0 "OUT3" H 2206 5173 70  0000 L BNN
+F 1 "~" H 2240 4990 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2240 4890 65  0001 L TNN
+F 3 "" H 2250 5100 60  0001 C CNN
+	1    2250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #P+07
+U 1 1 58CDE204
+P 4650 1200
+F 0 "#P+07" V 4550 1100 70  0001 L BNN
+F 1 "VCC" V 4550 1100 70  0000 L BNN
+F 2 "" H 4650 1200 60  0001 C CNN
+F 3 "" H 4650 1200 60  0001 C CNN
+	1    4650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #P+08
+U 1 1 58CDE268
+P 2650 2700
+F 0 "#P+08" V 2550 2600 70  0001 L BNN
+F 1 "VCC" V 2550 2600 70  0000 L BNN
+F 2 "" H 2650 2700 60  0001 C CNN
+F 3 "" H 2650 2700 60  0001 C CNN
+	1    2650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #P+09
+U 1 1 58CDE2CC
+P 2650 4300
+F 0 "#P+09" V 2550 4200 70  0001 L BNN
+F 1 "VCC" V 2550 4200 70  0000 L BNN
+F 2 "" H 2650 4300 60  0001 C CNN
+F 3 "" H 2650 4300 60  0001 C CNN
+	1    2650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #P+010
+U 1 1 58CDE330
+P 1450 6800
+F 0 "#P+010" V 1350 6700 70  0001 L BNN
+F 1 "VCC" V 1350 6700 70  0000 L BNN
+F 2 "" H 1450 6800 60  0001 C CNN
+F 3 "" H 1450 6800 60  0001 C CNN
+	1    1450 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #P+011
+U 1 1 58CDE394
+P 2050 6800
+F 0 "#P+011" V 1950 6700 70  0001 L BNN
+F 1 "VCC" V 1950 6700 70  0000 L BNN
+F 2 "" H 2050 6800 60  0001 C CNN
+F 3 "" H 2050 6800 60  0001 C CNN
+	1    2050 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #P+012
+U 1 1 58CDE3F8
+P 2650 6800
+F 0 "#P+012" V 2550 6700 70  0001 L BNN
+F 1 "VCC" V 2550 6700 70  0000 L BNN
+F 2 "" H 2650 6800 60  0001 C CNN
+F 3 "" H 2650 6800 60  0001 C CNN
+	1    2650 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #P+013
+U 1 1 58CDE45C
+P 4650 2800
+F 0 "#P+013" V 4550 2700 70  0001 L BNN
+F 1 "VCC" V 4550 2700 70  0000 L BNN
+F 2 "" H 4650 2800 60  0001 C CNN
+F 3 "" H 4650 2800 60  0001 C CNN
+	1    4650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #P+014
+U 1 1 58CDE4C0
+P 4650 4400
+F 0 "#P+014" V 4550 4300 70  0001 L BNN
+F 1 "VCC" V 4550 4300 70  0000 L BNN
+F 2 "" H 4650 4400 60  0001 C CNN
+F 3 "" H 4650 4400 60  0001 C CNN
+	1    4650 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #P+015
+U 1 1 58CDE524
+P 2650 900
+F 0 "#P+015" V 2550 800 70  0001 L BNN
+F 1 "VCC" V 2550 800 70  0000 L BNN
+F 2 "" H 2650 900 60  0001 C CNN
+F 3 "" H 2650 900 60  0001 C CNN
+	1    2650 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R1
+U 1 1 58CDE5EC
+P 4450 1400
+F 0 "R1" H 4300 1459 70  0000 L BNN
+F 1 "10K" H 4300 1270 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 1190 65  0001 L TNN
+F 3 "" H 4450 1400 60  0001 C CNN
+	1    4450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R2
+U 1 1 58CDE6B4
+P 4450 1500
+F 0 "R2" H 4300 1559 70  0000 L BNN
+F 1 "10K" H 4300 1370 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 1290 65  0001 L TNN
+F 3 "" H 4450 1500 60  0001 C CNN
+	1    4450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R3
+U 1 1 58CDE77C
+P 4450 1600
+F 0 "R3" H 4300 1659 70  0000 L BNN
+F 1 "10K" H 4300 1470 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 1390 65  0001 L TNN
+F 3 "" H 4450 1600 60  0001 C CNN
+	1    4450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R4
+U 1 1 58CDE844
+P 4450 1700
+F 0 "R4" H 4300 1759 70  0000 L BNN
+F 1 "10K" H 4300 1570 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 1490 65  0001 L TNN
+F 3 "" H 4450 1700 60  0001 C CNN
+	1    4450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R5
+U 1 1 58CDE90C
+P 4450 1800
+F 0 "R5" H 4300 1859 70  0000 L BNN
+F 1 "10K" H 4300 1670 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 1590 65  0001 L TNN
+F 3 "" H 4450 1800 60  0001 C CNN
+	1    4450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R6
+U 1 1 58CDE9D4
+P 4450 1900
+F 0 "R6" H 4300 1959 70  0000 L BNN
+F 1 "10K" H 4300 1770 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 1690 65  0001 L TNN
+F 3 "" H 4450 1900 60  0001 C CNN
+	1    4450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R7
+U 1 1 58CDEA9C
+P 4450 2000
+F 0 "R7" H 4300 2059 70  0000 L BNN
+F 1 "10K" H 4300 1870 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 1790 65  0001 L TNN
+F 3 "" H 4450 2000 60  0001 C CNN
+	1    4450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R8
+U 1 1 58CDEB64
+P 4450 2100
+F 0 "R8" H 4300 2159 70  0000 L BNN
+F 1 "10K" H 4300 1970 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 1890 65  0001 L TNN
+F 3 "" H 4450 2100 60  0001 C CNN
+	1    4450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R9
+U 1 1 58CDEC2C
+P 4450 3000
+F 0 "R9" H 4300 3059 70  0000 L BNN
+F 1 "10K" H 4300 2870 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 2790 65  0001 L TNN
+F 3 "" H 4450 3000 60  0001 C CNN
+	1    4450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R10
+U 1 1 58CDECF4
+P 4450 3100
+F 0 "R10" H 4300 3159 70  0000 L BNN
+F 1 "10K" H 4300 2970 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 2890 65  0001 L TNN
+F 3 "" H 4450 3100 60  0001 C CNN
+	1    4450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R11
+U 1 1 58CDEDBC
+P 4450 3200
+F 0 "R11" H 4300 3259 70  0000 L BNN
+F 1 "10K" H 4300 3070 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 2990 65  0001 L TNN
+F 3 "" H 4450 3200 60  0001 C CNN
+	1    4450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R12
+U 1 1 58CDEE84
+P 4450 3300
+F 0 "R12" H 4300 3359 70  0000 L BNN
+F 1 "10K" H 4300 3170 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 3090 65  0001 L TNN
+F 3 "" H 4450 3300 60  0001 C CNN
+	1    4450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R13
+U 1 1 58CDEF4C
+P 4450 3400
+F 0 "R13" H 4300 3459 70  0000 L BNN
+F 1 "10K" H 4300 3270 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 3190 65  0001 L TNN
+F 3 "" H 4450 3400 60  0001 C CNN
+	1    4450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R14
+U 1 1 58CDF014
+P 4450 3500
+F 0 "R14" H 4300 3559 70  0000 L BNN
+F 1 "10K" H 4300 3370 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 3290 65  0001 L TNN
+F 3 "" H 4450 3500 60  0001 C CNN
+	1    4450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R15
+U 1 1 58CDF0DC
+P 4450 3600
+F 0 "R15" H 4300 3659 70  0000 L BNN
+F 1 "10K" H 4300 3470 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 3390 65  0001 L TNN
+F 3 "" H 4450 3600 60  0001 C CNN
+	1    4450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R16
+U 1 1 58CDF1A4
+P 4450 3700
+F 0 "R16" H 4300 3759 70  0000 L BNN
+F 1 "10K" H 4300 3570 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 3490 65  0001 L TNN
+F 3 "" H 4450 3700 60  0001 C CNN
+	1    4450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R25
+U 1 1 58CDF26C
+P 2650 1500
+F 0 "R25" H 2500 1558 70  0000 L BNN
+F 1 "10K" H 2501 1370 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 2640 1290 65  0001 L TNN
+F 3 "" H 2650 1500 60  0001 C CNN
+	1    2650 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L R-EU_R0805 R26
+U 1 1 58CDF334
+P 2650 3100
+F 0 "R26" H 2500 3158 70  0000 L BNN
+F 1 "10K" H 2501 2970 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 2640 2890 65  0001 L TNN
+F 3 "" H 2650 3100 60  0001 C CNN
+	1    2650 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R-EU_R0805 R27
+U 1 1 58CDF3FC
+P 2650 4700
+F 0 "R27" H 2500 4758 70  0000 L BNN
+F 1 "10K" H 2501 4570 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 2640 4490 65  0001 L TNN
+F 3 "" H 2650 4700 60  0001 C CNN
+	1    2650 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L R-EU_R0805 R17
+U 1 1 58CDF4C4
+P 4450 4600
+F 0 "R17" H 4300 4659 70  0000 L BNN
+F 1 "10K" H 4300 4470 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 4390 65  0001 L TNN
+F 3 "" H 4450 4600 60  0001 C CNN
+	1    4450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R18
+U 1 1 58CDF58C
+P 4450 4700
+F 0 "R18" H 4300 4759 70  0000 L BNN
+F 1 "10K" H 4300 4570 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 4490 65  0001 L TNN
+F 3 "" H 4450 4700 60  0001 C CNN
+	1    4450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R19
+U 1 1 58CDF654
+P 4450 4800
+F 0 "R19" H 4300 4859 70  0000 L BNN
+F 1 "10K" H 4300 4670 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 4590 65  0001 L TNN
+F 3 "" H 4450 4800 60  0001 C CNN
+	1    4450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R20
+U 1 1 58CDF71C
+P 4450 4900
+F 0 "R20" H 4300 4959 70  0000 L BNN
+F 1 "10K" H 4300 4770 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 4690 65  0001 L TNN
+F 3 "" H 4450 4900 60  0001 C CNN
+	1    4450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R21
+U 1 1 58CDF7E4
+P 4450 5000
+F 0 "R21" H 4300 5059 70  0000 L BNN
+F 1 "10K" H 4300 4870 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 4790 65  0001 L TNN
+F 3 "" H 4450 5000 60  0001 C CNN
+	1    4450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R22
+U 1 1 58CDF8AC
+P 4450 5100
+F 0 "R22" H 4300 5159 70  0000 L BNN
+F 1 "10K" H 4300 4970 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 4890 65  0001 L TNN
+F 3 "" H 4450 5100 60  0001 C CNN
+	1    4450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R23
+U 1 1 58CDF974
+P 4450 5200
+F 0 "R23" H 4300 5259 70  0000 L BNN
+F 1 "10K" H 4300 5070 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 4990 65  0001 L TNN
+F 3 "" H 4450 5200 60  0001 C CNN
+	1    4450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-EU_R0805 R24
+U 1 1 58CDFA3C
+P 4450 5300
+F 0 "R24" H 4300 5359 70  0000 L BNN
+F 1 "10K" H 4300 5170 70  0000 L BNN
+F 2 "rotary-encoders:R0805" H 4440 5090 65  0001 L TNN
+F 3 "" H 4450 5300 60  0001 C CNN
+	1    4450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE1
+U 1 1 58CDFB04
+P 6350 1900
+F 0 "RE1" H 6251 2150 50  0000 L TNN
+F 1 "EC16_SW" H 6250 1750 50  0000 L TNN
+F 2 "rotary-encoders:EC16_SW" H 6250 1750 50  0001 L TNN
+F 3 "" H 6350 1900 60  0001 C CNN
+	1    6350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE1
+U 2 1 58CDFB68
+P 6450 1500
+F 0 "RE1" H 6250 1700 50  0000 L BNN
+F 1 "EC16_SW" H 6250 1401 50  0000 L BNN
+F 2 "rotary-encoders:EC16_SW" H 6250 1401 50  0001 L BNN
+F 3 "" H 6450 1500 60  0001 C CNN
+	2    6450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE1
+U 3 1 58CDFBCC
+P 6350 2300
+F 0 "RE1" H 6340 2290 65  0001 L TNN
+F 1 "EC16_SW" H 6340 2190 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 6340 2090 65  0001 L TNN
+F 3 "" H 6350 2300 60  0001 C CNN
+	3    6350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE1
+U 4 1 58CDFC30
+P 6350 2500
+F 0 "RE1" H 6340 2490 65  0001 L TNN
+F 1 "EC16_SW" H 6340 2390 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 6340 2290 65  0001 L TNN
+F 3 "" H 6350 2500 60  0001 C CNN
+	4    6350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE2
+U 1 1 58CDFCF8
+P 7450 1900
+F 0 "RE2" H 7351 2150 50  0000 L TNN
+F 1 "EC16_SW" H 7350 1750 50  0000 L TNN
+F 2 "rotary-encoders:EC16_SW" H 7350 1750 50  0001 L TNN
+F 3 "" H 7450 1900 60  0001 C CNN
+	1    7450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE2
+U 2 1 58CDFD5C
+P 7550 1500
+F 0 "RE2" H 7350 1700 50  0000 L BNN
+F 1 "EC16_SW" H 7350 1401 50  0000 L BNN
+F 2 "rotary-encoders:EC16_SW" H 7350 1401 50  0001 L BNN
+F 3 "" H 7550 1500 60  0001 C CNN
+	2    7550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE2
+U 3 1 58CDFDC0
+P 7450 2300
+F 0 "RE2" H 7440 2290 65  0001 L TNN
+F 1 "EC16_SW" H 7440 2190 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 7440 2090 65  0001 L TNN
+F 3 "" H 7450 2300 60  0001 C CNN
+	3    7450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE2
+U 4 1 58CDFE24
+P 7450 2500
+F 0 "RE2" H 7440 2490 65  0001 L TNN
+F 1 "EC16_SW" H 7440 2390 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 7440 2290 65  0001 L TNN
+F 3 "" H 7450 2500 60  0001 C CNN
+	4    7450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE3
+U 1 1 58CDFEEC
+P 8550 1900
+F 0 "RE3" H 8451 2150 50  0000 L TNN
+F 1 "EC16_SW" H 8450 1750 50  0000 L TNN
+F 2 "rotary-encoders:EC16_SW" H 8450 1750 50  0001 L TNN
+F 3 "" H 8550 1900 60  0001 C CNN
+	1    8550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE3
+U 2 1 58CDFF50
+P 8650 1500
+F 0 "RE3" H 8450 1700 50  0000 L BNN
+F 1 "EC16_SW" H 8450 1401 50  0000 L BNN
+F 2 "rotary-encoders:EC16_SW" H 8450 1401 50  0001 L BNN
+F 3 "" H 8650 1500 60  0001 C CNN
+	2    8650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE3
+U 3 1 58CDFFB4
+P 8550 2300
+F 0 "RE3" H 8540 2290 65  0001 L TNN
+F 1 "EC16_SW" H 8540 2190 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 8540 2090 65  0001 L TNN
+F 3 "" H 8550 2300 60  0001 C CNN
+	3    8550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE3
+U 4 1 58CE0018
+P 8550 2500
+F 0 "RE3" H 8540 2490 65  0001 L TNN
+F 1 "EC16_SW" H 8540 2390 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 8540 2290 65  0001 L TNN
+F 3 "" H 8550 2500 60  0001 C CNN
+	4    8550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE4
+U 1 1 58CE00E0
+P 9650 1900
+F 0 "RE4" H 9551 2150 50  0000 L TNN
+F 1 "EC16_SW" H 9550 1750 50  0000 L TNN
+F 2 "rotary-encoders:EC16_SW" H 9550 1750 50  0001 L TNN
+F 3 "" H 9650 1900 60  0001 C CNN
+	1    9650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE4
+U 2 1 58CE0144
+P 9750 1500
+F 0 "RE4" H 9550 1700 50  0000 L BNN
+F 1 "EC16_SW" H 9550 1401 50  0000 L BNN
+F 2 "rotary-encoders:EC16_SW" H 9550 1401 50  0001 L BNN
+F 3 "" H 9750 1500 60  0001 C CNN
+	2    9750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE4
+U 3 1 58CE01A8
+P 9650 2300
+F 0 "RE4" H 9640 2290 65  0001 L TNN
+F 1 "EC16_SW" H 9640 2190 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 9640 2090 65  0001 L TNN
+F 3 "" H 9650 2300 60  0001 C CNN
+	3    9650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE4
+U 4 1 58CE020C
+P 9650 2500
+F 0 "RE4" H 9640 2490 65  0001 L TNN
+F 1 "EC16_SW" H 9640 2390 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 9640 2290 65  0001 L TNN
+F 3 "" H 9650 2500 60  0001 C CNN
+	4    9650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE5
+U 1 1 58CE02D4
+P 6350 3700
+F 0 "RE5" H 6251 3950 50  0000 L TNN
+F 1 "EC16_SW" H 6250 3550 50  0000 L TNN
+F 2 "rotary-encoders:EC16_SW" H 6250 3550 50  0001 L TNN
+F 3 "" H 6350 3700 60  0001 C CNN
+	1    6350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE5
+U 2 1 58CE0338
+P 6450 3300
+F 0 "RE5" H 6250 3500 50  0000 L BNN
+F 1 "EC16_SW" H 6250 3201 50  0000 L BNN
+F 2 "rotary-encoders:EC16_SW" H 6250 3201 50  0001 L BNN
+F 3 "" H 6450 3300 60  0001 C CNN
+	2    6450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE5
+U 3 1 58CE039C
+P 6350 4100
+F 0 "RE5" H 6340 4090 65  0001 L TNN
+F 1 "EC16_SW" H 6340 3990 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 6340 3890 65  0001 L TNN
+F 3 "" H 6350 4100 60  0001 C CNN
+	3    6350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE5
+U 4 1 58CDD201
+P 6350 4300
+F 0 "RE5" H 6340 4290 65  0001 L TNN
+F 1 "EC16_SW" H 6340 4190 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 6340 4090 65  0001 L TNN
+F 3 "" H 6350 4300 60  0001 C CNN
+	4    6350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE6
+U 1 1 58CE0465
+P 7450 3700
+F 0 "RE6" H 7351 3950 50  0000 L TNN
+F 1 "EC16_SW" H 7350 3550 50  0000 L TNN
+F 2 "rotary-encoders:EC16_SW" H 7350 3550 50  0001 L TNN
+F 3 "" H 7450 3700 60  0001 C CNN
+	1    7450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE6
+U 2 1 58CE04C9
+P 7550 3300
+F 0 "RE6" H 7350 3500 50  0000 L BNN
+F 1 "EC16_SW" H 7350 3201 50  0000 L BNN
+F 2 "rotary-encoders:EC16_SW" H 7350 3201 50  0001 L BNN
+F 3 "" H 7550 3300 60  0001 C CNN
+	2    7550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE6
+U 3 1 58CE052D
+P 7450 4100
+F 0 "RE6" H 7440 4090 65  0001 L TNN
+F 1 "EC16_SW" H 7440 3990 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 7440 3890 65  0001 L TNN
+F 3 "" H 7450 4100 60  0001 C CNN
+	3    7450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE6
+U 4 1 58CE0591
+P 7450 4300
+F 0 "RE6" H 7440 4290 65  0001 L TNN
+F 1 "EC16_SW" H 7440 4190 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 7440 4090 65  0001 L TNN
+F 3 "" H 7450 4300 60  0001 C CNN
+	4    7450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE7
+U 1 1 58CE0659
+P 8550 3700
+F 0 "RE7" H 8451 3950 50  0000 L TNN
+F 1 "EC16_SW" H 8450 3550 50  0000 L TNN
+F 2 "rotary-encoders:EC16_SW" H 8450 3550 50  0001 L TNN
+F 3 "" H 8550 3700 60  0001 C CNN
+	1    8550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE7
+U 2 1 58CE06BD
+P 8650 3300
+F 0 "RE7" H 8450 3500 50  0000 L BNN
+F 1 "EC16_SW" H 8450 3201 50  0000 L BNN
+F 2 "rotary-encoders:EC16_SW" H 8450 3201 50  0001 L BNN
+F 3 "" H 8650 3300 60  0001 C CNN
+	2    8650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE7
+U 3 1 58CE0721
+P 8550 4100
+F 0 "RE7" H 8540 4090 65  0001 L TNN
+F 1 "EC16_SW" H 8540 3990 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 8540 3890 65  0001 L TNN
+F 3 "" H 8550 4100 60  0001 C CNN
+	3    8550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE7
+U 4 1 58CE0785
+P 8550 4300
+F 0 "RE7" H 8540 4290 65  0001 L TNN
+F 1 "EC16_SW" H 8540 4190 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 8540 4090 65  0001 L TNN
+F 3 "" H 8550 4300 60  0001 C CNN
+	4    8550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE8
+U 1 1 58CE084D
+P 9650 3700
+F 0 "RE8" H 9551 3950 50  0000 L TNN
+F 1 "EC16_SW" H 9550 3550 50  0000 L TNN
+F 2 "rotary-encoders:EC16_SW" H 9550 3550 50  0001 L TNN
+F 3 "" H 9650 3700 60  0001 C CNN
+	1    9650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE8
+U 2 1 58CE08B1
+P 9750 3300
+F 0 "RE8" H 9550 3500 50  0000 L BNN
+F 1 "EC16_SW" H 9550 3201 50  0000 L BNN
+F 2 "rotary-encoders:EC16_SW" H 9550 3201 50  0001 L BNN
+F 3 "" H 9750 3300 60  0001 C CNN
+	2    9750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE8
+U 3 1 58CE0915
+P 9650 4100
+F 0 "RE8" H 9640 4090 65  0001 L TNN
+F 1 "EC16_SW" H 9640 3990 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 9640 3890 65  0001 L TNN
+F 3 "" H 9650 4100 60  0001 C CNN
+	3    9650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L EC16_SW RE8
+U 4 1 58CE0979
+P 9650 4300
+F 0 "RE8" H 9640 4290 65  0001 L TNN
+F 1 "EC16_SW" H 9640 4190 65  0001 L TNN
+F 2 "rotary-encoders:EC16_SW" H 9640 4090 65  0001 L TNN
+F 3 "" H 9650 4300 60  0001 C CNN
+	4    9650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC165D U1
+U 1 1 58CE0A41
+P 3550 1800
+F 0 "U1" H 3251 2430 70  0000 L BNN
+F 1 "SN74HC165DR" H 3250 1200 70  0000 L BNN
+F 2 "rotary-encoders:SO16" H 3540 1590 65  0001 L TNN
+F 3 "" H 3550 1800 60  0001 C CNN
+	1    3550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC165D U2
+U 1 1 58CE0B09
+P 3550 3400
+F 0 "U2" H 3251 4030 70  0000 L BNN
+F 1 "SN74HC165DR" H 3250 2800 70  0000 L BNN
+F 2 "rotary-encoders:SO16" H 3540 3190 65  0001 L TNN
+F 3 "" H 3550 3400 60  0001 C CNN
+	1    3550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC165D U3
+U 1 1 58CE0BD1
+P 3550 5000
+F 0 "U3" H 3251 5630 70  0000 L BNN
+F 1 "SN74HC165DR" H 3250 4400 70  0000 L BNN
+F 2 "rotary-encoders:SO16" H 3540 4790 65  0001 L TNN
+F 3 "" H 3550 5000 60  0001 C CNN
+	1    3550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_6_0_9 VCC1
+U 1 1 58CE0C99
+P 2150 1300
+F 0 "VCC1" H 2106 1373 70  0000 L BNN
+F 1 "~" H 2140 1190 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2140 1090 65  0001 L TNN
+F 3 "" H 2150 1300 60  0001 C CNN
+	1    2150 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3200 2950 3200
+Text Label 2950 3200 0    65   ~ 0
+CLK
+Wire Wire Line
+	3150 4800 2950 4800
+Text Label 2950 4800 0    65   ~ 0
+CLK
+Wire Wire Line
+	3150 1600 2950 1600
+Text Label 2950 1600 0    65   ~ 0
+CLK
+Wire Wire Line
+	5250 1500 5450 1500
+Text Label 5250 1500 0    65   ~ 0
+CLK
+Wire Wire Line
+	2250 3800 3150 3800
+Connection ~ 2250 3800
+Wire Wire Line
+	3150 1700 2950 1700
+Text Label 2950 1700 0    65   ~ 0
+GND
+Wire Wire Line
+	3150 3300 2950 3300
+Text Label 2950 3300 0    65   ~ 0
+GND
+Wire Wire Line
+	3150 4900 2950 4900
+Text Label 2950 4900 0    65   ~ 0
+GND
+Wire Wire Line
+	2350 5400 3150 5400
+Wire Wire Line
+	2350 5600 2650 5600
+Connection ~ 2650 5400
+Connection ~ 2650 5600
+Wire Wire Line
+	6250 3300 6050 3300
+Text Label 6050 3300 0    65   ~ 0
+GND
+Wire Wire Line
+	2250 2200 3150 2200
+Connection ~ 2650 2200
+Wire Wire Line
+	5250 1700 5450 1700
+Text Label 5250 1700 0    65   ~ 0
+GND
+Wire Wire Line
+	6250 3700 6050 3700
+Text Label 6050 3700 0    65   ~ 0
+GND
+Wire Wire Line
+	7350 3700 7150 3700
+Text Label 7150 3700 0    65   ~ 0
+GND
+Wire Wire Line
+	8450 3700 8250 3700
+Text Label 8250 3700 0    65   ~ 0
+GND
+Wire Wire Line
+	9550 3700 9350 3700
+Text Label 9350 3700 0    65   ~ 0
+GND
+Wire Wire Line
+	6650 1500 6850 1500
+Text Label 6650 1500 0    65   ~ 0
+GND
+Wire Wire Line
+	9950 3300 10150 3300
+Text Label 9950 3300 0    65   ~ 0
+GND
+Wire Wire Line
+	6250 1900 6050 1900
+Text Label 6050 1900 0    65   ~ 0
+GND
+Wire Wire Line
+	7350 1900 7150 1900
+Text Label 7150 1900 0    65   ~ 0
+GND
+Wire Wire Line
+	8450 1900 8250 1900
+Text Label 8250 1900 0    65   ~ 0
+GND
+Wire Wire Line
+	9550 1900 9350 1900
+Text Label 9350 1900 0    65   ~ 0
+GND
+Wire Wire Line
+	6350 2300 6550 2300
+Text Label 6350 2300 0    65   ~ 0
+GND
+Wire Wire Line
+	6350 2500 6550 2500
+Text Label 6350 2500 0    65   ~ 0
+GND
+Wire Wire Line
+	6350 4300 6550 4300
+Text Label 6350 4300 0    65   ~ 0
+GND
+Wire Wire Line
+	6350 4100 6550 4100
+Text Label 6350 4100 0    65   ~ 0
+GND
+Wire Wire Line
+	7450 4300 7650 4300
+Text Label 7450 4300 0    65   ~ 0
+GND
+Wire Wire Line
+	7450 4100 7650 4100
+Text Label 7450 4100 0    65   ~ 0
+GND
+Wire Wire Line
+	7650 2300 7450 2300
+Text Label 7450 2300 0    65   ~ 0
+GND
+Wire Wire Line
+	7450 2500 7650 2500
+Text Label 7450 2500 0    65   ~ 0
+GND
+Wire Wire Line
+	8550 2300 8750 2300
+Text Label 8550 2300 0    65   ~ 0
+GND
+Wire Wire Line
+	8750 2500 8550 2500
+Text Label 8550 2500 0    65   ~ 0
+GND
+Wire Wire Line
+	8550 4100 8750 4100
+Text Label 8550 4100 0    65   ~ 0
+GND
+Wire Wire Line
+	8550 4300 8750 4300
+Text Label 8550 4300 0    65   ~ 0
+GND
+Wire Wire Line
+	9650 2300 9850 2300
+Text Label 9650 2300 0    65   ~ 0
+GND
+Wire Wire Line
+	9850 2500 9650 2500
+Text Label 9650 2500 0    65   ~ 0
+GND
+Wire Wire Line
+	9650 4100 9850 4100
+Text Label 9650 4100 0    65   ~ 0
+GND
+Wire Wire Line
+	9650 4300 9850 4300
+Text Label 9650 4300 0    65   ~ 0
+GND
+Wire Wire Line
+	2650 1700 2650 1800
+Wire Wire Line
+	2650 1800 3150 1800
+Wire Wire Line
+	2250 1600 2350 1700
+Wire Wire Line
+	2350 1700 2650 1700
+Connection ~ 2650 1700
+Text Label 2950 1800 0    65   ~ 0
+IN1
+Wire Wire Line
+	2650 3300 2650 3400
+Wire Wire Line
+	2650 3400 3150 3400
+Wire Wire Line
+	2250 3200 2350 3300
+Wire Wire Line
+	2350 3300 2650 3300
+Connection ~ 2650 3300
+Text Label 2950 3400 0    65   ~ 0
+IN2
+Wire Wire Line
+	2650 4900 2650 5000
+Wire Wire Line
+	2650 5000 3150 5000
+Wire Wire Line
+	2350 4800 2450 4900
+Wire Wire Line
+	2450 4900 2650 4900
+Connection ~ 2650 4900
+Text Label 2950 5000 0    65   ~ 0
+IN3
+Wire Wire Line
+	3150 1500 2950 1500
+Text Label 2950 1500 0    65   ~ 0
+LD
+Wire Wire Line
+	3150 4700 2950 4700
+Text Label 2950 4700 0    65   ~ 0
+LD
+Wire Wire Line
+	3150 3100 2950 3100
+Text Label 2950 3100 0    65   ~ 0
+LD
+Wire Wire Line
+	5250 1300 5450 1300
+Text Label 5250 1300 0    65   ~ 0
+LD
+Wire Wire Line
+	2250 1900 3150 1900
+Text Label 2950 1900 0    65   ~ 0
+OUT1
+Wire Wire Line
+	2250 3500 3150 3500
+Text Label 2950 3500 0    65   ~ 0
+OUT2
+Wire Wire Line
+	3150 5100 2350 5100
+Text Label 2950 5100 0    65   ~ 0
+OUT3
+Wire Wire Line
+	6650 2000 6850 2000
+Text Label 6650 2000 0    65   ~ 0
+RE1A
+Wire Wire Line
+	6650 1800 6850 1800
+Text Label 6650 1800 0    65   ~ 0
+RE1B
+Wire Wire Line
+	7750 2000 7950 2000
+Text Label 7750 2000 0    65   ~ 0
+RE2A
+Wire Wire Line
+	7750 1800 7950 1800
+Text Label 7750 1800 0    65   ~ 0
+RE2B
+Wire Wire Line
+	8850 2000 9050 2000
+Text Label 8850 2000 0    65   ~ 0
+RE3A
+Wire Wire Line
+	8850 1800 9050 1800
+Text Label 8850 1800 0    65   ~ 0
+RE3B
+Wire Wire Line
+	9950 2000 10150 2000
+Text Label 9950 2000 0    65   ~ 0
+RE4A
+Wire Wire Line
+	9950 1800 10150 1800
+Text Label 9950 1800 0    65   ~ 0
+RE4B
+Wire Wire Line
+	6650 3800 6850 3800
+Text Label 6650 3800 0    65   ~ 0
+RE5A
+Wire Wire Line
+	6650 3600 6850 3600
+Text Label 6650 3600 0    65   ~ 0
+RE5B
+Wire Wire Line
+	7750 3800 7950 3800
+Text Label 7750 3800 0    65   ~ 0
+RE6A
+Wire Wire Line
+	7750 3600 7950 3600
+Text Label 7750 3600 0    65   ~ 0
+RE6B
+Wire Wire Line
+	8850 3800 9050 3800
+Text Label 8850 3800 0    65   ~ 0
+RE7A
+Wire Wire Line
+	8850 3600 9050 3600
+Text Label 8850 3600 0    65   ~ 0
+RE7B
+Wire Wire Line
+	9950 3800 10150 3800
+Text Label 9950 3800 0    65   ~ 0
+RE8A
+Wire Wire Line
+	9950 3600 10150 3600
+Text Label 9950 3600 0    65   ~ 0
+RE8B
+Wire Wire Line
+	6250 1500 6050 1500
+Text Label 6050 1500 0    65   ~ 0
+SW1
+Wire Wire Line
+	9550 1500 9350 1500
+Wire Wire Line
+	6650 3300 6850 3300
+Text Label 6650 3300 0    65   ~ 0
+SW5
+Wire Wire Line
+	9550 3300 9350 3300
+Text Label 9350 3300 0    65   ~ 0
+SW8
+Wire Wire Line
+	4650 1300 4650 2100
+Connection ~ 4650 2000
+Connection ~ 4650 1900
+Connection ~ 4650 1800
+Connection ~ 4650 1700
+Connection ~ 4650 1600
+Connection ~ 4650 1500
+Connection ~ 4650 1400
+Wire Wire Line
+	2650 2800 2650 2900
+Wire Wire Line
+	2650 2900 3150 2900
+Connection ~ 2650 2900
+Wire Wire Line
+	2650 4500 2650 4400
+Wire Wire Line
+	2350 4500 3150 4500
+Connection ~ 2650 4500
+Wire Wire Line
+	2250 1300 3150 1300
+Wire Wire Line
+	2650 1000 2650 1300
+Connection ~ 2650 1300
+Wire Wire Line
+	4650 2900 4650 3700
+Connection ~ 4650 3600
+Connection ~ 4650 3500
+Connection ~ 4650 3400
+Connection ~ 4650 3300
+Connection ~ 4650 3200
+Connection ~ 4650 3100
+Connection ~ 4650 3000
+Wire Wire Line
+	4650 4500 4650 5300
+Connection ~ 4650 5200
+Connection ~ 4650 5100
+Connection ~ 4650 5000
+Connection ~ 4650 4900
+Connection ~ 4650 4800
+Connection ~ 4650 4700
+Connection ~ 4650 4600
+Text Label 3150 3200 2    10   ~ 0
+CLK
+Text Label 3150 4800 2    10   ~ 0
+CLK
+Text Label 3150 1600 2    10   ~ 0
+CLK
+Text Label 5250 1500 0    10   ~ 0
+CLK
+Text GLabel 3150 3800 0    10   UnSpc ~ 0
+GND
+Text GLabel 2650 3800 1    10   UnSpc ~ 0
+GND
+Text GLabel 2250 3800 2    10   UnSpc ~ 0
+GND
+Text GLabel 2650 7200 3    10   UnSpc ~ 0
+GND
+Text GLabel 2650 7200 1    10   UnSpc ~ 0
+GND
+Text GLabel 2050 7200 3    10   UnSpc ~ 0
+GND
+Text GLabel 2050 7200 1    10   UnSpc ~ 0
+GND
+Text GLabel 1450 7200 3    10   UnSpc ~ 0
+GND
+Text GLabel 1450 7200 1    10   UnSpc ~ 0
+GND
+Text GLabel 3150 1700 0    10   UnSpc ~ 0
+GND
+Text GLabel 3150 3300 0    10   UnSpc ~ 0
+GND
+Text GLabel 3150 4900 0    10   UnSpc ~ 0
+GND
+Text GLabel 3150 5400 0    10   UnSpc ~ 0
+GND
+Text GLabel 2350 5400 2    10   UnSpc ~ 0
+GND
+Text GLabel 2350 5600 2    10   UnSpc ~ 0
+GND
+Text GLabel 6250 3300 0    10   UnSpc ~ 0
+GND
+Text GLabel 3150 2200 0    10   UnSpc ~ 0
+GND
+Text GLabel 2650 2200 1    10   UnSpc ~ 0
+GND
+Text GLabel 2250 2200 2    10   UnSpc ~ 0
+GND
+Text GLabel 5250 1700 2    10   UnSpc ~ 0
+GND
+Text GLabel 6250 3700 0    10   UnSpc ~ 0
+GND
+Text GLabel 7350 3700 0    10   UnSpc ~ 0
+GND
+Text GLabel 8450 3700 0    10   UnSpc ~ 0
+GND
+Text GLabel 9550 3700 0    10   UnSpc ~ 0
+GND
+Text GLabel 6650 1500 2    10   UnSpc ~ 0
+GND
+Text GLabel 9950 3300 2    10   UnSpc ~ 0
+GND
+Text GLabel 6250 1900 0    10   UnSpc ~ 0
+GND
+Text GLabel 7350 1900 0    10   UnSpc ~ 0
+GND
+Text GLabel 8450 1900 0    10   UnSpc ~ 0
+GND
+Text GLabel 9550 1900 0    10   UnSpc ~ 0
+GND
+Text GLabel 6350 2300 0    10   UnSpc ~ 0
+GND
+Text GLabel 6350 2500 0    10   UnSpc ~ 0
+GND
+Text GLabel 6350 4300 0    10   UnSpc ~ 0
+GND
+Text GLabel 6350 4100 0    10   UnSpc ~ 0
+GND
+Text GLabel 7450 4300 0    10   UnSpc ~ 0
+GND
+Text GLabel 7450 4100 0    10   UnSpc ~ 0
+GND
+Text GLabel 7450 2300 0    10   UnSpc ~ 0
+GND
+Text GLabel 7450 2500 0    10   UnSpc ~ 0
+GND
+Text GLabel 8550 2300 0    10   UnSpc ~ 0
+GND
+Text GLabel 8550 2500 0    10   UnSpc ~ 0
+GND
+Text GLabel 8550 4100 0    10   UnSpc ~ 0
+GND
+Text GLabel 8550 4300 0    10   UnSpc ~ 0
+GND
+Text GLabel 9650 2300 0    10   UnSpc ~ 0
+GND
+Text GLabel 9650 2500 0    10   UnSpc ~ 0
+GND
+Text GLabel 9650 4100 0    10   UnSpc ~ 0
+GND
+Text GLabel 9650 4300 0    10   UnSpc ~ 0
+GND
+Text Label 3150 1800 2    10   ~ 0
+IN1
+Text Label 2650 1700 3    10   ~ 0
+IN1
+Text Label 2250 1600 0    10   ~ 0
+IN1
+Text Label 2650 3300 3    10   ~ 0
+IN2
+Text Label 3150 3400 2    10   ~ 0
+IN2
+Text Label 2250 3200 0    10   ~ 0
+IN2
+Text Label 2650 4900 3    10   ~ 0
+IN3
+Text Label 3150 5000 2    10   ~ 0
+IN3
+Text Label 2350 4800 0    10   ~ 0
+IN3
+Text Label 3150 1500 2    10   ~ 0
+LD
+Text Label 3150 4700 2    10   ~ 0
+LD
+Text Label 3150 3100 2    10   ~ 0
+LD
+Text Label 5250 1300 0    10   ~ 0
+LD
+Text Label 3150 1900 2    10   ~ 0
+OUT1
+Text Label 2250 1900 0    10   ~ 0
+OUT1
+Text Label 3150 3500 2    10   ~ 0
+OUT2
+Text Label 2250 3500 0    10   ~ 0
+OUT2
+Text Label 3150 5100 2    10   ~ 0
+OUT3
+Text Label 2350 5100 0    10   ~ 0
+OUT3
+Text Label 6650 2000 0    10   ~ 0
+RE1A
+Text Label 6650 1800 0    10   ~ 0
+RE1B
+Text Label 7750 2000 0    10   ~ 0
+RE2A
+Text Label 7750 1800 0    10   ~ 0
+RE2B
+Text Label 8850 2000 0    10   ~ 0
+RE3A
+Text Label 8850 1800 0    10   ~ 0
+RE3B
+Text Label 9950 2000 0    10   ~ 0
+RE4A
+Text Label 9950 1800 0    10   ~ 0
+RE4B
+Text Label 6650 3800 0    10   ~ 0
+RE5A
+Text Label 6650 3600 0    10   ~ 0
+RE5B
+Text Label 7750 3800 0    10   ~ 0
+RE6A
+Text Label 7750 3600 0    10   ~ 0
+RE6B
+Text Label 8850 3800 0    10   ~ 0
+RE7A
+Text Label 8850 3600 0    10   ~ 0
+RE7B
+Text Label 9950 3800 0    10   ~ 0
+RE8A
+Text Label 9950 3600 0    10   ~ 0
+RE8B
+Text Label 6250 1500 2    10   ~ 0
+SW1
+Text Label 6650 3300 0    10   ~ 0
+SW5
+Text Label 9550 3300 2    10   ~ 0
+SW8
+Text Label 4650 2100 0    10   ~ 0
+VCC
+Text Label 4650 2000 0    10   ~ 0
+VCC
+Text Label 4650 1900 0    10   ~ 0
+VCC
+Text Label 4650 1800 0    10   ~ 0
+VCC
+Text Label 4650 1700 0    10   ~ 0
+VCC
+Text Label 4650 1600 0    10   ~ 0
+VCC
+Text Label 4650 1500 0    10   ~ 0
+VCC
+Text Label 4650 1400 0    10   ~ 0
+VCC
+Text Label 4650 1300 3    10   ~ 0
+VCC
+Text Label 2650 2800 3    10   ~ 0
+VCC
+Text Label 3150 2900 2    10   ~ 0
+VCC
+Text Label 2650 2900 1    10   ~ 0
+VCC
+Text Label 2650 4400 3    10   ~ 0
+VCC
+Text Label 3150 4500 2    10   ~ 0
+VCC
+Text Label 2650 4500 1    10   ~ 0
+VCC
+Text Label 3150 1300 2    10   ~ 0
+VCC
+Text Label 2250 1300 0    10   ~ 0
+VCC
+Text Label 2650 1000 3    10   ~ 0
+VCC
+Text Label 2650 1300 1    10   ~ 0
+VCC
+Text Label 1450 6900 1    10   ~ 0
+VCC
+Text Label 1450 6900 3    10   ~ 0
+VCC
+Text Label 2050 6900 1    10   ~ 0
+VCC
+Text Label 2050 6900 3    10   ~ 0
+VCC
+Text Label 2650 6900 1    10   ~ 0
+VCC
+Text Label 2650 6900 3    10   ~ 0
+VCC
+Text Label 4650 3700 0    10   ~ 0
+VCC
+Text Label 4650 3600 0    10   ~ 0
+VCC
+Text Label 4650 3500 0    10   ~ 0
+VCC
+Text Label 4650 3400 0    10   ~ 0
+VCC
+Text Label 4650 3300 0    10   ~ 0
+VCC
+Text Label 4650 3200 0    10   ~ 0
+VCC
+Text Label 4650 3100 0    10   ~ 0
+VCC
+Text Label 4650 3000 0    10   ~ 0
+VCC
+Text Label 4650 2900 3    10   ~ 0
+VCC
+Text Label 4650 5300 0    10   ~ 0
+VCC
+Text Label 4650 5200 0    10   ~ 0
+VCC
+Text Label 4650 5100 0    10   ~ 0
+VCC
+Text Label 4650 5000 0    10   ~ 0
+VCC
+Text Label 4650 4900 0    10   ~ 0
+VCC
+Text Label 4650 4800 0    10   ~ 0
+VCC
+Text Label 4650 4700 0    10   ~ 0
+VCC
+Text Label 4650 4600 0    10   ~ 0
+VCC
+Text Label 4650 4500 3    10   ~ 0
+VCC
+Wire Wire Line
+	3950 1400 4250 1400
+Wire Wire Line
+	3950 1500 4250 1500
+Wire Wire Line
+	3950 1600 4250 1600
+Wire Wire Line
+	3950 1700 4250 1700
+Wire Wire Line
+	3950 1800 4250 1800
+Wire Wire Line
+	3950 1900 4250 1900
+Wire Wire Line
+	3950 2000 4250 2000
+Wire Wire Line
+	3950 2100 4250 2100
+Wire Wire Line
+	3950 3000 4250 3000
+Wire Wire Line
+	3950 3100 4250 3100
+Wire Wire Line
+	3950 3200 4250 3200
+Wire Wire Line
+	3950 3300 4250 3300
+Wire Wire Line
+	3950 3400 4250 3400
+Wire Wire Line
+	3950 3500 4250 3500
+Wire Wire Line
+	3950 3600 4250 3600
+Wire Wire Line
+	3950 3700 4250 3700
+Wire Wire Line
+	3950 4600 4250 4600
+Wire Wire Line
+	3950 4700 4250 4700
+Wire Wire Line
+	3950 4800 4250 4800
+Wire Wire Line
+	3950 4900 4250 4900
+Wire Wire Line
+	3950 5000 4250 5000
+Wire Wire Line
+	3950 5100 4250 5100
+Wire Wire Line
+	3950 5200 4250 5200
+Wire Wire Line
+	3950 5300 4250 5300
+Text Label 3950 1700 0    60   ~ 0
+RE1B
+Text Label 3950 1600 0    60   ~ 0
+RE1A
+Text Label 3950 1500 0    60   ~ 0
+RE5B
+Text Label 3950 1400 0    60   ~ 0
+RE5A
+Text Label 3950 2100 0    60   ~ 0
+RE6B
+Text Label 3950 2000 0    60   ~ 0
+RE6A
+Text Label 3950 1900 0    60   ~ 0
+RE2B
+Text Label 3950 1800 0    60   ~ 0
+RE2A
+Text Label 3950 4900 0    60   ~ 0
+RE3B
+Text Label 3950 4800 0    60   ~ 0
+RE3A
+Text Label 3950 4700 0    60   ~ 0
+RE7B
+Text Label 3950 4600 0    60   ~ 0
+RE7A
+Text Label 3950 5100 0    60   ~ 0
+RE4B
+Text Label 3950 5000 0    60   ~ 0
+RE4A
+Text Label 3950 5300 0    60   ~ 0
+RE8B
+Text Label 3950 5200 0    60   ~ 0
+RE8A
+Wire Wire Line
+	9950 1500 10150 1500
+Text Label 9950 1500 0    60   ~ 0
+SW4
+Text Label 9350 1500 0    60   ~ 0
+GND
+Text Label 3950 3400 0    60   ~ 0
+SW2
+Text Label 3950 3500 0    60   ~ 0
+SW1
+Text Label 3950 3600 0    60   ~ 0
+SW5
+Text Label 3950 3700 0    60   ~ 0
+SW6
+Text Label 3950 3000 0    60   ~ 0
+SW7
+Text Label 3950 3100 0    60   ~ 0
+SW8
+Text Label 3950 3200 0    60   ~ 0
+SW4
+Text Label 3950 3300 0    60   ~ 0
+SW3
+Wire Wire Line
+	7750 1500 7950 1500
+Wire Wire Line
+	7350 1500 7150 1500
+Text Label 7750 1500 0    60   ~ 0
+SW2
+Text Label 7150 1500 0    60   ~ 0
+GND
+Wire Wire Line
+	8450 1500 8250 1500
+Wire Wire Line
+	8850 1500 9100 1500
+Text Label 8250 1500 0    60   ~ 0
+SW3
+Text Label 8850 1500 0    60   ~ 0
+GND
+Wire Wire Line
+	8850 3300 9050 3300
+Wire Wire Line
+	8450 3300 8250 3300
+Wire Wire Line
+	7750 3300 7950 3300
+Wire Wire Line
+	7350 3300 7200 3300
+Text Label 7200 3300 0    60   ~ 0
+SW6
+Text Label 8850 3300 0    60   ~ 0
+SW7
+Text Label 7750 3300 0    60   ~ 0
+GND
+Text Label 8250 3300 0    60   ~ 0
+GND
+$Comp
+L 1_6_0_9 GND2
+U 1 1 58D33DA9
+P 2250 5800
+F 0 "GND2" H 2206 5873 70  0000 L BNN
+F 1 "~" H 2240 5690 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2240 5590 65  0001 L TNN
+F 3 "" H 2250 5800 60  0001 C CNN
+	1    2250 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5400 2650 5850
+Wire Wire Line
+	2350 5800 2650 5800
+Connection ~ 2650 5800
+$Comp
+L 1_6_0_9 VCC2
+U 1 1 58D34AE4
+P 2250 4500
+F 0 "VCC2" H 2206 4573 70  0000 L BNN
+F 1 "~" H 2240 4390 65  0001 L TNN
+F 2 "rotary-encoders:1_6_0_9" H 2240 4290 65  0001 L TNN
+F 3 "" H 2250 4500 60  0001 C CNN
+	1    2250 4500
+	1    0    0    -1  
+$EndComp
+Text Label 2700 1900 0    60   ~ 0
+IN2
+Text Label 2650 3500 0    60   ~ 0
+IN3
+$EndSCHEMATC
