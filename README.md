@@ -1,2 +1,2 @@
 # midict
-Firmware and software for my own MIDI controllers
+Hardware, firmware and software for my home made MIDI controllers
