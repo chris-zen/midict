@@ -1,7 +1,7 @@
 [package]
 name = "midict1"
 version = "0.1.0"
-authors = ["Christian Perez-Llamas <chrispz@gmail.com>"]
+authors = ["Christian Zen"]
 
 [dependencies]
 core-foundation = "0.2.2"
